@@ -10,5 +10,9 @@
     <main>
         This is text form second_branch
     </main>
+
+    <footer>
+        This is Footer third_branch
+    </footer>
 </body>
 </html>
