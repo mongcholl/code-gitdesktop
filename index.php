@@ -7,5 +7,8 @@
 </head>
 <body>
     <h1>learn git desktop</h1>
+    <main>
+        This is text form second_branch
+    </main>
 </body>
 </html>
