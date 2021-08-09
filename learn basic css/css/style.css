@@ -453,3 +453,25 @@ footer{
 .css-float-img{
     float: right;
 }
+
+/* 14-combinators.html */
+ /* 
+    css-conbinators
+     - Descendant Selector (space)
+     - Child Selector (>)
+     - adjacent Sibling Selector (+)
+     - General Sibling Selector ()
+
+ */
+ .css-combinators1 p{
+     background: rgb(2, 172, 252);
+ }
+ .css-combinators2 > p {
+    background: rgb(66, 110, 253);
+}
+.css-combinators3 + p{
+    background: rgb(198, 248, 99);
+}
+/* .css-combinators3 + section{
+    background: rgb(76, 238, 250);
+} */
