@@ -369,3 +369,87 @@ span{
     top: -40px;
     z-index: -1;
 }
+
+/* 12-overflow.html */
+    /* ควบคุมเนื้อหาในกล่องให้แสดงผลยังไง
+
+     overflow: visible ;
+     overflow: hidden;
+     overflow: scroll;
+     overflow: auto;
+    */
+.css-overflow1{
+    max-width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    overflow: visible;
+}
+.css-overflow2{
+    max-width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.css-overflow3{
+    max-width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    overflow: scroll;
+}
+.css-overflow4{
+    max-width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+/* 13-Float.html */
+.css-float-header{
+    width: 100%;
+    height: 60px;
+    background: grey;
+}
+.css-float-section{
+    width: 60%;
+    height: 300px;
+    float: left;
+    background: darkgoldenrod;
+}
+.css-float-aside{
+    width: 40%;
+    height: 300px;
+    float: right;
+    background: #ccc;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: table;
+
+        /* clear: both;
+                คำสั่งเคลียร์ซ้ายขวาของ Float เพื่อแก้ Bug ของ Float 
+                both ,lest ,right
+                -------------------------------
+            clear::after{
+                :: = sudo element
+            }
+        */
+}
+footer{
+    height: 100px;
+    background: grey;
+}
+
+.css-float1{
+    border: 2px solid black;
+    margin-bottom: 100px;
+    overflow: auto;
+        /* overflow: auto; 
+             ใช้แก้ไข img ล้น จาก Border ในส่วนของ css img ด่านล่าง
+             (.css-flot-img) เเต่ต้องใช้ Folat ก่อนเสมอ ถึงจะสามารถใช้งาน
+             overflow: auto; ได้
+        */
+}
+.css-float-img{
+    float: right;
+}
