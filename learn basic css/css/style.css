@@ -1,0 +1,230 @@
+/* 1-css.html */
+/*  External-style */
+.external-style{
+    margin: 3px;
+    width: 300px;
+    height: 150px;
+    background-color: aqua;
+}
+
+/* 2-css-selector.html */
+/* 
+    selector {
+        property : value;
+    }
+*/
+.css-selector{
+    width: 300px;
+    height: 150px;
+    background-color: aqua; /* html color code*/
+}
+
+/* 3-dev-tools.html*/
+.dev-tools{
+    width: 50px;
+    height: 50px;
+    border: 3px solid grey;
+    background-color: blue;
+}
+
+/* 4-css-color.html*/
+.css-color1{
+    margin: 5px;
+    width: 66px;
+    height: 66px;
+    border: 3px solid blue ;
+    background-color: rgb(180 ,40 ,10);
+    /* background-color
+        property : function rgb(parameter);
+        rgb(red ,green ,blue);
+       
+    */
+}
+.css-color2{
+    margin: 5px;
+    width: 66px;
+    height: 66px;
+    border: 3px solid blue ;
+    background-color: rgb(180 ,40 ,10 ,0.1);
+    /* background-color
+        property : function rgba(parameter);
+        rgba(red ,green ,blue ,alpha);  
+    */
+}
+.css-color3{
+    margin: 5px;
+    width: 66px;
+    height: 66px;
+    border: 3px solid blue ;
+    background-color: hsl(180 ,40 ,10);
+}
+
+/* 5-fonts.html */
+@font-face {
+    font-family: kanit;
+    src: url(../fonts/Kanit-Regular.woff);
+}
+
+body{
+    font-family: 'kanit';
+}
+
+/* 6-BackGround*/
+.css-bg1{
+    width: 300px;
+    height: 300px;
+    background-image: url(../../images/2.jpg);
+    background-repeat: no-repeat;
+                     /* background-repeat: no-repeat; 
+                         ไม่ให้รูปแสดงซ้ำกัน 2 ภาพ
+                     */
+    background-color: red ;  
+}
+.css-bg2{
+    width: 300px;
+    height: 300px;
+    background-image: url(../../images/2.jpg);
+    background-repeat: no-repeat;
+                     /* background-repeat: no-repeat; 
+                         ไม่ให้รูปแสดงซ้ำกัน 2 ภาพ
+                     */
+    background-color: red ;
+    background-size: cover;
+                /*background-size: cover; 
+                    ทำให้ภาพเต็ม css ที่เรากำหนด เนื่องจากขนาดภาพไม่เท่ากัน
+                */
+    background-position: 50% 50% ;
+                /* background-position: x y ;
+                            กำหนดรูปภาพให้อยู่ระหว่างเเนวตั้ง แนวนอน
+                */
+}
+.css-bg3 {
+    width: 300px;
+    height: 300px;
+    background: url(../../images/1.jpg) no-repeat;
+}
+
+/* 7-Borders.html*/
+/*
+    value Borders
+        dotted
+        dashed
+        solid
+        double
+        groove
+        ridge
+        inset
+        outset
+        none
+        hidden
+
+        border-width
+        border-style (required)
+        border-color
+*/
+.css-border1 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.css-border2{
+    width: 300px;
+    height: 300px;
+    border-style: dotted;
+}
+.css-border3{
+    width: 300px;
+    height: 300px;
+
+    border-width: 10px;
+    border-style: dashed;
+    border-color: blue;
+}
+
+
+/* 8-box model.html*/
+.css-box-model1{
+    width: 100px;
+    height: 100px;
+    background: black;
+    border: cornflowerblue;
+    color: white;
+
+
+    margin-top: ;
+    margin-right: ;
+    margin-bottom: ;
+    margin-left: ;
+    margin: 0 0 0 0;
+        /*  margin: 0 0 0 0; 
+                    : top right bottom left ;
+        */
+    margin: 10px 20px 10px;
+         /*  margin: 10px 20px 10px; 
+                    : top (right & bottom) left ;
+        */
+    margin: 10px 20px ;
+        /*  margin: 10px 20px; 
+                   : (top & bottom) (right & bottom);
+       */
+    margin: 0 auto;
+        /*  margin: 0 auto;
+                    : top & bottom = 0 
+                      left & right = auto
+                      ส่วนใหญ่ใช้กับ container
+        */
+
+    
+    padding-top: ;
+    padding-right: ;
+    padding-bottom: ;
+    padding-left: ;
+    padding: 0 0 0 0;
+            /*  padding: 0 0 0 0; 
+                        : top right bottom left ;
+            */
+    padding: 10px 20px 10px;
+             /*  padding: 10px 20px 10px; 
+                        : top (right & bottom) left ;
+            */
+    padding: 10px 20px ;
+            /*  padding: 10px 20px; 
+                       : (top & bottom) (right & bottom);
+           */
+    padding: 0 auto;
+            /*  padding: 0 auto;
+                        : top & bottom = 0 
+                          left & right = auto
+                          ส่วนใหญ่ใช้กับ container
+            */
+}
+
+/* 9-display.html*/
+.css-display{
+    background: red ;
+    display: inline;
+}
+.css-display2{
+    background: blueviolet;
+    display: none;
+         /* display :none ;
+                    block or inline จะหายไปเลย
+         */
+}
+span{
+    background: blue;
+    display: block;
+}
+
+
+.visibility{
+    visibility: hidden;
+    /*visibility : hidden;
+                    แสดงผลหายไป แต่ขนาดเดิม หรือพื้นที่ยังอยู่
+    */
+}
+.hidden {
+    display: none;
+}
+
+/* 10- */ 

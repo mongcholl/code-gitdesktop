@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes & ID</title>
+
+    <style>
+       /* ### css style class พิมพ์ . ตามด้วยชื่อ Class ### */
+       .box{
+            background-color: black;
+            color: white;
+            margin: 10px;
+            padding: 20px;
+        }
+        .center{
+            text-align: center;
+        }
+        .boxID{
+            margin: 5px;
+            width: 300px;
+            height: 150px;
+            background-color: blue;
+        }
+
+
+        /* CSS style ID พิมพ์ # ตามด้วยชื่อ ID  */
+        #myid{
+            width: 500px;
+            height: 300px;
+            background-color: red;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- Class -->
+    <!-- ใช้งานกับ Element ได้หลายตัว -->
+    <!-- 
+        พิมพ์ .box แล้ว Enter จะได้ 
+        <div class="box">
+        </div> 
+    -->
+    Classes
+    <div class="box">
+        <h2>This is a Box 1</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <!-- CLass หลายตัวเขียนใน Style CSS -->
+    <div class="box center">
+        <h2>This is a Box 2</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="box">
+        <h2>This is a Box 3</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <p class="box">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolorem. Modi sunt natus, provident a quaerat voluptas libero ex inventore similique, tempora et nam? Ad qui quos tenetur eveniet omnis?
+    </p>
+<hr>
+    
+<!-- ID -->
+<!--ใช้งานได้กับตัวใดตัวรนึง (ระบุให้ใช้ตัวนี้เท่านั้น)-->
+<!-- 
+    พิมพ์ #myid แล้ว Enter จะได้ 
+    <div id="myid"></div>
+-->
+    ID
+
+    <div id="myid"></div>
+    <div class="boxID"></div>
+    <div class="boxID"></div>
+    <div class="boxID"></div>
+    <div class="boxID"></div>
+
+
+
+</body>
+</html>

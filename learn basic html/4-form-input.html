@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form & Input</title>
+</head>
+<body>
+
+        <form>
+            <fieldset>  <!-- ขอบเทา-->
+               <legend> <!-- ยกตัวหนังสือไว้ที่ขอบ Fieldset-->
+                   Register Form 
+               </legend>
+
+               <label for="firstname">Firstname</label>  
+               <input  type="text" placeholder="Enter your Firstname....">     <!-- placeholder : เพื่อบอกให้ว่าต้องใส่อะไร-->
+               <br>
+               <label for="lastname">Laststname</label>  
+               <input  type="text" placeholder="Enter your Lastname....">     <!-- placeholder : เพื่อบอกให้ว่าต้องใส่อะไร-->
+               <br>
+
+               <!-- Input Radio เลือก -->
+               <input type="radio" name="gender" value="male" checked> male
+               <input type="radio" name="gender" value="feale"> Female
+               <br>
+
+               <!-- checkbox -->
+               <input type="checkbox" value="value" name="value1"> Checkbox 1
+               <input type="checkbox" value="value" name="vlaue2"> Checkbox 2
+               <input type="checkbox" value="value" name="vlaue3"> Checkbox 3
+               <br>
+
+               <!-- ปุ่ม Submit -->
+               <input type="submit" value="submit">
+            </fieldset>
+      </form>
+
+
+
+
+
+
+
+      <form>
+          <fieldset>
+              <legend>
+                  Register Form
+              </legend>
+              <!-- Input Text -->
+              <label for="firstname">FirstName</label>
+              <input type="text" name="firstname" placeholder="Enter your FirstName">
+              <br>
+              <label for="lastname">Lastname</label>
+              <input type="lastname" name="lastname" placeholder="Enter your Lastname">
+              <br> 
+
+              <!-- Input radio -->
+              <lable for="gender">gender
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female" checked> Female   
+              </lable>
+              <br>
+
+              <!-- Input checkbox -->
+              <input type="checkbox" name="value1" value="value1"> Checkbox 1
+              <input type="checkbox" name="value2" value="value2"> Checkbox 2
+              <input type="checkbox" name="value3" value="value3"> Checkbox 3
+              <br>
+              <!-- Input submit -->
+              <input type="submit" value="submit">
+
+
+
+          </fieldset>
+      </form>
+
+
+
+
+
+
+
+</body>
+</html>
