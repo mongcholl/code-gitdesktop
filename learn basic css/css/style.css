@@ -475,3 +475,44 @@ footer{
 /* .css-combinators3 + section{
     background: rgb(76, 238, 250);
 } */
+
+/* 15-pseudo_classes-pseudo-element.html */
+    /*  :   pseudo-classes
+        ::  pseudo-element
+    */
+.css-pseudo{
+    width: 100px;
+    height: 100px;
+    background: black;
+}
+.css-pseudo:hover{
+    background: red;
+}
+.css-pseudo2{
+    border: 2px solid rgb(184, 179, 179);
+}
+.css-pseudo2:hover{
+    background: rgb(110, 238, 255);
+}
+p:first-child:first-line{
+    font-size: 36px;
+}
+.css-pseudo p::before{
+    content: "This is insert from ::before";
+}
+
+/* 16-box-sizing.html */
+*{
+    margin: 0;
+}
+.css-box-sizing{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    padding: 20px;
+    box-sizing: border-box;
+        /* box-sizing: border-box; 
+            ตัวกำหนดค่าเริ่มต้นของกล่อง ไม่ต้องคำนวณว่าขนาดกล่อง หรือค่าที่เราใส่ไปนั้นมีขนาดเท่าไหร่
+            เรียกง่าย ๆ  ว่า box-sizing เป็นตัวช่วยในการสร้าง Layout ของ Webside 
+        */
+}
