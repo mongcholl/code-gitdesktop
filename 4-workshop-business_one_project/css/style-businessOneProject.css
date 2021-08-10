@@ -12,7 +12,9 @@
     clear: both;
     display: table;
 }
-/* css Navigation */
+
+
+/* Nav styling */
 nav {
     height: 60px;
     background-color: #333;
@@ -40,5 +42,48 @@ nav ul.menu li a {
     text-decoration: none;
     color: white;
 } 
-/* End Css Navigation */
+/* End nav styling */
+
+/* #################################### */
+
+/* CSS About */
+#about {
+    height: 420px;
+    border-bottom: 2px solid #eee;
+    overflow: auto;
+}
+.about-info {
+    margin-top: 20px;
+    padding: 20px;
+    overflow: auto;
+}
+.about-info-left{
+    float: left;
+}
+.about-info-left img{
+    width: 500px;
+}
+.about-info-right {
+    width: 380px;
+    margin-left: 20px;
+    float: left;
+}
+.about-info-right p {
+    margin: 10px 0;
+}
+.about-info-right a {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    margin-top: 10px;
+    display: inline-block;
+}
+.about-info-right a:hover{
+    color: rgb(0, 0, 0);
+    background: rgb(197, 197, 197);
+    border: 2px solid rgb(197, 197, 197);
+}
+/* End CSS About */
 
