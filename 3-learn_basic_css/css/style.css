@@ -516,3 +516,21 @@ p:first-child:first-line{
             เรียกง่าย ๆ  ว่า box-sizing เป็นตัวช่วยในการสร้าง Layout ของ Webside 
         */
 }
+
+/* 17-specificity.html */
+/* ลำดับ Level
+    CCC specificity
+        Inline style
+        IDs
+        classes
+        Element
+*/
+#heading {
+    color: red;
+}
+.heading {
+    color: green;
+}
+h1{
+    color: purple;
+}
