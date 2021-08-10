@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* css Navigation */
+nav {
+    height: 60px;
+    background-color: #333;
+    border-bottom: 2px solid #ccc;
+}
+nav .logo {
+    float: left;
+}
+nav .logo h1 {
+    margin-top: 15px;
+    color: white;
+}
+nav ul.menu {
+    float: right;
+    list-style: none;
+}
+nav ul.menu li {
+    float: left;
+    padding: 20px;
+}
+nav ul.menu li:hover{
+   background: black; 
+}
+nav ul.menu li a {
+    text-decoration: none;
+    color: white;
+} 
+/* End Css Navigation */
+
