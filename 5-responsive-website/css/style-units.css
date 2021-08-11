@@ -1,0 +1,48 @@
+/* EX1 */
+/*p{
+    font-size: 16px;
+    line-height: 2em;
+         
+        px * em 
+        ex : 16px * 2em = 32px  
+} */
+/* ****************** end EX1 ************************** */
+
+/* EX2 */
+/* div {
+    font-size: 30px;
+}
+div>p {
+    font-size: 0.5em ;
+} */
+/* ****************** end EX2 ************************** */
+
+/* EX3 */
+/* html{
+    font-size: 16px;
+}
+div{
+    font-size: 2rem;
+}
+div p { 
+    font-size: 3rem;
+} */
+/* ****************** end EX3 ************************** */
+
+h1 {
+    font-size: 20vw;  
+}
+h2 {
+    font-size: 20vh;
+}
+
+/* ****************** end EX4 ************************** */
+
+/* 
+body{
+    font-size: 16px;
+}
+h1 {
+    font-size: 150%;
+}
+*/

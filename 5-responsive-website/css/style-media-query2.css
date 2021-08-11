@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2-media-query_2.html */
+
+header{
+    height: 50px;
+    background: rgb(248, 164, 164);
+}
+section{
+    width: 60%;
+    background: rgb(165, 244, 250);
+    height: 300px;
+    float: left;
+}
+aside{
+    width: 40%;
+    background: rgb(154, 154, 255);
+    height: 300px;
+    float: left;
+}
+footer{
+    height: 50px;
+    background: pink;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive Website */
+@media screen and (max-width : 480px){
+section{
+    width: 100%;
+    float: none;
+}
+aside{
+    width: 100%;
+    float: none;
+}
+
+/* EX section & aside คำสั่งเมื่อย่อหน้าจออยู่ที่ขนาด 480px ให้ใช้งานคำสั่ง @media screen and (max-width : 480px)
+   ให้ Section ขยายเป็น 100% เเละเครีย Float ที่คำสั่งไว้ css styling ด้านบน
+*/
+}
