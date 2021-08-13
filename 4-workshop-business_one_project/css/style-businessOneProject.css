@@ -195,7 +195,72 @@ footer{
 }
 /* End Contact styling */
 
-/* responsive */
+/* Media 768px */
+@media screen and (max-width: 768px) {
+    nav {
+        height: auto;
+    }
+    nav .logo {
+        float: none;
+    }
+    nav .logo h1{
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav ul.menu{
+        float: none;
+        text-align: center;
+    }
+    nav ul.menu li{
+        float: none;
+        display: inline-block;
+    }
+/* End media nav */
+    #about{
+        height: auto;
+    }
+    .about-info-left{
+        float: none;
+    }
+    .about-info-left img {
+        width: 100%;
+    }
+    .about-info-right{
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+/* End about */
+    
+    .service-left{
+        float: none;
+        width: 36%;
+        display: inline-block;
+    }
+    .service-right{
+        float: none;
+        width: 36%;
+        display: inline-block;
+    }
+    .contact-info{
+       float: none;
+    }
+    .contact-info-map{
+        float: none;
+    
+      
+    }
+
+/* End Media Service */
+
+}   
+
+/* End Media 768px */
+
+/* responsive 480px */
 @media screen and (max-width: 480px){
     nav{
         height: auto; 
@@ -215,5 +280,164 @@ footer{
     nav ul.menu li{
         float: none;
         display: inline-block;
-    }   
+    }  
+/* End media nav */
+
+    #about{
+        height: auto;
     }
+    .about-info-left{
+        float: none;
+    } 
+    .about-info-left img {
+        width: 100%;
+    }
+    .about-info-right{
+        float: none;
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+    }
+/* End media about  */
+    .service-left {
+        float: none;
+        width: 90%;   
+    }
+    .service-right{
+        float: none;
+        width: 90%;
+    }
+/* End media service  */
+    .contact-info{
+        width: 50%;
+        float: none;
+    }
+    .contact-info-map{
+        width: 50%;
+        float: none;
+    }
+/* End media contact */
+
+}
+/* End media 480px */
+
+/* Responsive  667px*/
+@media screen and (max-width:667px) {
+    nav{
+        height: auto; 
+    }
+    nav .logo{
+        float: none;
+        padding: 20px;
+        text-align: center;
+    }
+    nav .logo h1{
+        margin: 0;
+    }
+    nav  ul.menu{
+        float: none;
+        text-align: center;
+    }
+    nav ul.menu li{
+        float: none;
+        display: inline-block;
+    }  
+/* End media nav */
+
+    #about{
+        height: auto;
+    }
+    .about-info-left{
+        float: none;
+    } 
+    .about-info-left img {
+        width: 100%;
+    }
+    .about-info-right{
+        float: none;
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+    }
+/* End media about  */
+    .service-left {
+        float: none;
+        width: 90%;   
+    }
+    .service-right{
+        float: none;
+        width: 90%;
+    }
+/* End media service  */
+
+    .contact-info{
+        width: 100%;
+        float: none;
+    }
+    .contact-info-map{
+        width: 100%;
+        float: none;
+    }
+}
+/* End 667px */
+
+/* Responsive  667px*/
+@media screen and (max-width:740px) {
+    nav{
+        height: auto; 
+    }
+    nav .logo{
+        float: none;
+        padding: 20px;
+        text-align: center;
+    }
+    nav .logo h1{
+        margin: 0;
+    }
+    nav  ul.menu{
+        float: none;
+        text-align: center;
+    }
+    nav ul.menu li{
+        float: none;
+        display: inline-block;
+    }  
+/* End media nav */
+
+    #about{
+        height: auto;
+    }
+    .about-info-left{
+        float: none;
+    } 
+    .about-info-left img {
+        width: 100%;
+    }
+    .about-info-right{
+        float: none;
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+    }
+/* End media about  */
+    .service-left {
+        float: none;
+        width: 90%;   
+    }
+    .service-right{
+        float: none;
+        width: 90%;
+    }
+/* End media service  */
+
+    .contact-info{
+        width: 100%;
+        float: none;
+    }
+    .contact-info-map{
+        width: 100%;
+        float: none;
+    }
+}
+/* End Media 740 px  */
+
