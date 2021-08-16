@@ -35,5 +35,9 @@
     border: 5px solid black;
     height: 500px;
     display: flex;
-    
+
+
+    /* 
+        flex-flow: flex-direction flex-wrap;
+    */
 }
