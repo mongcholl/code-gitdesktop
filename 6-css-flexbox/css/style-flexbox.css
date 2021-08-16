@@ -5,15 +5,35 @@
 }
 .flex-container{
     border: 5px solid black ;
-    height: 300px;
+    height: 500px;
     display: flex;
+    flex-direction: row;
+    /* flex-direction: row;             ค่าเริ่มต้น row อยู่ซ้าย
+       flex-direction: row-reverse;     row ขวา
+       flex-direction: column;          colum อยู่บน
+       flex-direction: column-reverse;  colum อยู่ล่าง 
+    */
+    flex-wrap: wrap-reverse;
+
+    /*  flex-wrap: nowrap;          ค่าเริ่มต้น
+        flex-wrap: wrap;            ตัด บรรทัดที่เกินลงล่าง
+        flex-wrap: wrap-reverse;    ตัด บรรทัดที่เกินขึ้นบน
+    */  
 }
 
 .flex-items{
     width: 100px;
-    height: 100px;
+ 
     background: green;
     color: #fff;
     padding: 2rem ;
     border: 2px solid red;
+}
+
+/* 5-flex-flow.html */
+.flex-flow-container{
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+    
 }
