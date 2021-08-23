@@ -69,20 +69,102 @@
     border: 2px solid red;
 }
 
+
 /* 7-align-items.html */
-.flex-container-align-items{
+    /* 
+        จัดแยวตาม แนวนอน
+        align-items: stretch; 
+        align-items: flex-start;  ชิดซ้าย บน
+        align-items: flex-start;  ชิดซ้าย ล่าง
+        align-items: center;      ตรงกลาง
+        align-items: baseline;    ขยายตามตัวอักษรที่ใหญ่
+    */
+
+.container-align-items{
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+
+    align-items: baseline;
+}
+
+.flex-align-items{
+    width: 200px;
+    height: 100px;
+    background: green;
+    color: #fff;
+    padding: 2rem ;
+    border: 2px solid red;
+}
+
+/* 8-align-content.html */
+/* 
+    จัดแนวตาม แนวตั้ง
+    คำสั่ง align-content ต้องใช้ flex-wrap: wrap; ด้วยไม่งัลกำสั่ง Flex-content จะใช้งานไม่ได้
+            align-content: flex-start;
+            flex-wrap: wrap;
+
+            align-content: flex-start;      ชิดซ้าย บน
+            align-content: flex-end;        ชิดซ้าย ล่าง    
+            align-content: center;          ตรงกลาง 
+            align-content: stretch;         ชิดซ้ายบน แต่แบ่งช่องระหว่าง
+            align-content: space-between;   ชิดบนล่าง
+            align-content: space-around;
+
+
+*/
+
+.container-align-content{
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.align-content-items{
+   width: 100px;
+   height: 100px;
+   color: #000;
+   background: rgb(248, 167, 167);
+   border: 2px solid red;
+   padding: 2rem;
+}
+
+/* 9-oder.html */
+
+.container-oder{
     border: 5px solid black;
     height: 500px;
     display: flex;
 
 }
 
-.flex-align-items{
-    border: 5px solid black;
+.oder-items{
+    border: 2px solid black;
+    width: 100px;
     height: 100px;
-    background: green;
-    color: #fff;
     padding: 2rem;
-    border: 2px solid red;
+    color:black;
+    background: rgb(164, 164, 245);
 }
 
+/* 
+    oder-items:nth-child(1){
+        oder: 4;
+    }
+        การกำหนด Items ตัวที่ 1 ให้มาอยู่ในตำแหน่งตัวที่ 4 
+ */
+.oder-items:nth-child(1) {
+    order: 4;
+}
+.oder-items:nth-child(2){
+    order: 3;
+}
+.oder-items:nth-child(3){
+    order: 2;
+}
+.oder-items:nth-child(4){
+    order: 1;
+}
