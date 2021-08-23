@@ -36,8 +36,36 @@
     height: 500px;
     display: flex;
 
-
+    flex-flow: row wrap;
     /* 
         flex-flow: flex-direction flex-wrap;
     */
 }
+
+/* 6-Justify-content.html */
+/* 
+    justify-content: flex-start;        ชิดซ้าย
+    justify-content: flex-end;          ชิดขวา
+    justify-content: center;            ตรงกลาง
+    justify-content: space-between;     ตัวแรกชิดซ้าย  ตัวสุดท้ายชิดขวา ส่วนตรงกลางจะแบ่ง Space เท่าๆกัน (ระยะห่าง)
+    justify-content: space-around;      เหมือนกับ Space-between แต่จะแบ่ง Space ซ้ายขวาเท่าๆกัน
+    justify-content: space-evenly;      เหมือนกับ space-around แต่จะมีระยะ Space มากกว่า space-around 
+*/
+
+.flex-container-justify-content{
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.flex-items-justify{
+    width: 100px;
+    height: 100px;
+    background: green;
+    color: #fff;
+    padding: 2rem ;
+    border: 2px solid red;
+}
+
