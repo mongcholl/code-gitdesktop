@@ -69,3 +69,20 @@
     border: 2px solid red;
 }
 
+/* 7-align-items.html */
+.flex-container-align-items{
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+
+}
+
+.flex-align-items{
+    border: 5px solid black;
+    height: 100px;
+    background: green;
+    color: #fff;
+    padding: 2rem;
+    border: 2px solid red;
+}
+
