@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -63,72 +63,163 @@ ul.menu li button {
  ul.menu li button i {
      margin-left: 10px;
      color: #fff;
- } */
-
- *{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     font-family: Arial, Helvetica, sans-serif;
- }
- html{
-     font-family: 16px;
- }
- .container{
-     max-width: 960px;
-     margin: 0 auto;
  }
 
- nav {
-     height: 60px;
-     background: #3498db;
- }
+/* End nav styling */
 
- .nav-flex{
-     height: 60px;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
- }
-.logo a{
-     text-decoration: none;
-     color: #fff;
- }
-.logo a:hover{
-    color: rgb(235, 235, 235) ;
-}
-
- .menu {
-     width: 400px;
-     display: flex;
-     justify-content: space-between;
-     list-style: none;
- }
-
-ul.menu li a {
-    color:#fff;
-    text-decoration: none;
-    transition: 0.3s;
-}
-ul.menu li a:hover {
-    padding: 5px;
-    color: rgb(235, 235, 235);
-    border-bottom: 2px solid rgb(235, 235, 235);    
-}
-
-ul.menu li input {
-    border:none;
-    padding: 5px 10px;
-}
-ul.menu li button {
-    border: none;
-    background: none;
-    padding: 5px 10px;
+#banner{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(../img/banner-bg.jpg) no-repeat;
+    background-size: cover;
     color: #fff;
+
+}
+.banner-title h1 {
+    font-family: 'Permanent Marker';
+    font-size: 5rem;
+}
+.banner-title p {
+    margin: 20px 0;
+}
+.banner-title .banner-btn {   
+    background: #ff178f;
+    color: #fff;
+    padding: 10px 25px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;  
+}
+.banner-title .banner-btn:hover{
+    background: rgb(243, 179, 240);
+    color: rgb(46, 46, 46);
+}
+
+/* End banner styling */
+
+#our-best-tours{
+    height: 400px;
+}
+
+.tours-title {
+    text-align: center;
+    padding: 30px;
+}
+.tours-flex {
+    display: flex;
+}
+.tours-flex-items {
+    width: 100%;
+    height: 200px;
+    margin: .5rem;
+    position: relative;
+    transition: 0.3s;
+    border: 5px;
+}
+.tours-flex-items:hover{
+    transform: translateY(-15px);
+    box-shadow: 3px  10px 20px rgba(0, 0, 0, 0.30);
+}
+.tours-flex-items img {
+    width: 100%; 
+    height: 200px;
+    border-radius: 5px;
+}
+
+.tours-flex-items h3 { 
+    font-size: 1rem;
+    color: #fff;
+}
+
+.tours-flex-items .price {
+    position: absolute;
+    top: 1rem;
+    left: 1rem; 
+    background: #ff178f;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    transition: .3s;
     cursor: pointer;
 }
-ul.menu li button:hover {
-    color: rgb(182, 182, 182);
-
+.tours-flex-items .price:hover {
+    background: #333;
 }
 
+.tours-flex-items figcaption {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+/* End Tours styling */
+
+.clients {
+    height: 450px;   
+}
+.client-title {
+    text-align: center;
+    padding: 30px;
+}
+.clients-flex {
+    display: flex;
+}
+.clients-flex-items {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  transition: .3s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.clients-flex-items:hover{
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+}
+.clients-flex-items img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.clients-flex-items figcaption{
+    margin-top: 15px;
+}
+
+/* End Clients styling */
+
+footer {
+    height: 250px;
+    background: #3498db ;
+    color: #fff;
+}
+
+.footer-flex{
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+    
+}
+.footer-flex-items {
+    width: 100%;
+    padding: 30px;
+}
+.footer-flex-items ul{
+    list-style: none;
+}
+.footer-flex-items ul li {
+    margin-top: 10px;
+}
+
+.footer-flex-items ul li i {
+    color: #ff178f;
+    margin-left: 5px;
+}
+.footer-flex-items ul {
+    margin-top: 15px;
+}
+.footer-flex-items p {
+    margin-top:15px;
+}
